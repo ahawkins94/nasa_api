@@ -22,7 +22,7 @@ describe 'Nasa tests' do
 
   #testing all the near earth object data
   it 'should return the data in neo_all as hashes' do
-    expect(@neo_all['links']).to be_a(Hash)
+    expect(@neo_all).to be_a(Hash)
   end
 
   #testing data from the epic
